@@ -1,5 +1,5 @@
 ######################################################################
-## File: $Id: README 3649 2006-03-09 22:10:02Z spadkins $
+## File: $Id: README 6706 2006-07-25 02:14:50Z spadkins $
 ######################################################################
 
 WHAT IS THIS?
@@ -20,9 +20,9 @@ development.  When you are ready to buy, the price is quite reasonable.
 
 As of 25-Oct-2005 when I checked the prices for Linux licenses were
 
-   * USD 99 each (for 1 - 4 licenses)
-   * USD 79 each (for 5 - 19 licenses)
-   * USD 59 each (for >= 20 licenses)
+   * USD 99 each (for 1 - 4 server licenses)
+   * USD 79 each (for 5 - 19 server licenses)
+   * USD 59 each (for >= 20 server licenses)
 
 The web site for ChartDirector is at
 
@@ -38,8 +38,8 @@ Install ChartDirector for Perl first.
 Then install this distribution.  cd to the directory that contains this README
 file and type the following:
 
-   perl Build.PL
-   ./Build
-   ./Build test
-   ./Build install
+   perl Makefile.PL
+   make
+   make test
+   make install
 
