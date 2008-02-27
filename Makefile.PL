@@ -12,7 +12,7 @@ use ExtUtils::MakeMaker;
 %opts = (
     'NAME'         => 'App-Widget-ChartDirector',
     'DISTNAME'     => 'App-Widget-ChartDirector',
-    'VERSION'      => '0.60',
+    'VERSION'      => '0.966',
     #'EXE_FILES'    => [ @programs ],
     'PREREQ_PM'    => {
         "App::Options"   => 0,  # option parsing
